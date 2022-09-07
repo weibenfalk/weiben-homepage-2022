@@ -1,0 +1,35 @@
+---
+export interface Props {
+  title: string;
+  href: string;
+  newWindowForLink?: boolean;
+}
+
+const { title, href, newWindowForLink } = Astro.props;
+---
+
+<a
+  href={href}
+  target={newWindowForLink ? "_blank" : "_self"}
+  rel="noreferrer noopener"
+  >{title}
+</a>
+
+<style>
+  a {
+    display: inline-block;
+    background: var(--color-gradient);
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--color-text-dark);
+    padding: 5px 10px;
+    filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.15));
+    border-radius: 5px;
+    transform: matrix(1, -0.08, 0, 0.99, 0, 0);
+  }
+
+  a:hover {
+    transition: 0.2s ease;
+    opacity: 0.8;
+  }
+</style>

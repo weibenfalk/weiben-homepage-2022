@@ -1,0 +1,111 @@
+---
+import Button from "../Button/Button.astro";
+
+export interface Props {
+  title: string;
+  buttonText?: string;
+  buttonLink?: string;
+  imgUrl?: string;
+  imgToRight?: boolean;
+  newWindowForLink?: boolean;
+}
+
+const { title, buttonText, buttonLink, imgUrl, imgToRight, newWindowForLink } =
+  Astro.props;
+---
+
+<article class={imgToRight ? "reverse" : ""}>
+  <div class={`left-wrapper ${imgToRight ? "reverse" : ""}`}>
+    <h1>{title}</h1>
+    <span class="card-content">
+      <slot />
+    </span>
+    <div class="btn">
+      <Button
+        title={buttonText ?? "Click here"}
+        href={buttonLink ?? "/"}
+        newWindowForLink={newWindowForLink}
+      />
+    </div>
+  </div>
+  <div class="right-wrapper">
+    <img src={imgUrl} alt="card-image" />
+  </div>
+</article>
+
+<style>
+  h1 {
+    font-weight: 600;
+  }
+
+  .card-content {
+    display: block;
+    padding: 20px 0 40px 0;
+  }
+
+  article {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    position: relative;
+  }
+
+  .left-wrapper {
+    padding-right: 20px;
+    width: 60%;
+  }
+
+  .right-wrapper {
+    width: 40%;
+  }
+
+  .left-wrapper.reverse {
+    padding-left: 40px;
+    padding-right: 0;
+  }
+
+  article.reverse {
+    flex-direction: row-reverse;
+  }
+
+  img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 5px;
+    filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.15));
+  }
+
+  @media only screen and (max-width: 768px) {
+    article,
+    article.reverse {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+
+    img {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+
+    h1,
+    .card-content {
+      text-align: center;
+    }
+
+    .btn {
+      display: flex;
+      justify-content: center;
+    }
+
+    .left-wrapper,
+    .right-wrapper,
+    .left-wrapper.reverse {
+      width: 100%;
+    }
+
+    .left-wrapper.reverse {
+      padding: 0;
+    }
+  }
+</style>

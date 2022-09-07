@@ -1,0 +1,45 @@
+---
+export interface Props {
+  isTransparent?: boolean;
+}
+
+const { isTransparent } = Astro.props;
+---
+
+<div class={`wrapper ${isTransparent ? "transparent" : ""}`}>
+  <div class="content">
+    <slot />
+  </div>
+</div>
+
+<style>
+  .wrapper {
+    background-color: var(--color-secondary-light);
+    min-height: 200px;
+    position: relative;
+    margin-top: 50px;
+    transform: skewY(-2deg);
+  }
+
+  html.dark .wrapper {
+    background-color: var(--color-secondary-dark);
+  }
+
+  .content {
+    padding: 100px 20px 20px 20px;
+    color: var(--color-text-dark);
+    max-width: 1200px;
+    margin: 0 auto;
+    transform: skewY(2deg);
+  }
+
+  .wrapper.transparent .content {
+    color: inherit;
+    padding-top: 20px;
+  }
+
+  .transparent,
+  html.dark .transparent {
+    background: transparent;
+  }
+</style>

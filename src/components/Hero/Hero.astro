@@ -1,0 +1,53 @@
+---
+import Button from "../Button/Button.astro";
+
+export interface Props {
+  title: string;
+  subtitle?: string;
+  buttonText?: string;
+  buttonLink?: string;
+}
+
+const { title, subtitle, buttonText, buttonLink } = Astro.props;
+---
+
+<div class="wrapper">
+  <h1>{title}</h1>
+  <p>{subtitle}</p>
+
+  <div class="btn">
+    <Button title={buttonText ?? "Click here"} href={buttonLink ?? "/"} />
+  </div>
+</div>
+
+<style>
+  .wrapper {
+    margin-bottom: 100px;
+    padding: 0 20px;
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+
+  h1,
+  p {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    margin-top: 40px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+</style>

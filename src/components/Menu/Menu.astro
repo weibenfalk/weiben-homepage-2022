@@ -1,0 +1,112 @@
+---
+import ModeButton from "../ModeButton/ModeButton.astro";
+---
+
+<nav>
+  <ul>
+    <input type="checkbox" id="checkbox_toggle" />
+    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+    <div class="menu">
+      <li><a href="/about">ABOUT</a></li>
+      <li><a href="/uses">USES</a></li>
+      <li><a href="/music">MUSIC</a></li>
+      <li><a href="/contact">CONTACT</a></li>
+      <li>
+        <ModeButton />
+      </li>
+    </div>
+  </ul>
+</nav>
+
+<style>
+  * {
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px 20px 20px;
+    color: #fff;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 18px;
+  }
+
+  .menu a:hover {
+    transition: 0.2s ease;
+    opacity: 0.5;
+  }
+
+  .menu li {
+    padding: 5px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /*RESPONSIVE NAVBAR MENU STARTS*/
+  /* CHECKBOX HACK */
+  input[type="checkbox"] {
+    display: none;
+  }
+  /*HAMBURGER MENU*/
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+    z-index: 100;
+  }
+  /* APPLYING MEDIA QUERIES */
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+      position: fixed;
+      background: var(--color-gradient);
+      top: 0;
+      right: 0;
+      left: 0;
+      height: 100%;
+      z-index: 10;
+      text-align: center;
+      padding-top: 120px;
+    }
+
+    .menu li:hover {
+      display: inline-block;
+      opacity: 0.8;
+      transition: 0.3s ease;
+    }
+
+    .menu li + li {
+      margin-top: 12px;
+    }
+
+    input[type="checkbox"]:checked ~ .menu {
+      display: block;
+    }
+
+    .hamburger {
+      position: fixed;
+      right: 40px;
+      top: 25px;
+      display: block;
+      font-size: 40px;
+      cursor: pointer;
+    }
+  }
+</style>
