@@ -2,7 +2,7 @@
 title: 'FREE dev videos and courses'
 buttonText: 'Go to my Youtube channel'
 buttonUrl: 'https://www.youtube.com/weibenfalk'
-imgUrl: 'thumb-3.jpg'
+imgUrl: 'thumb2.webp'
 newWindowForLink: true
 ---
 

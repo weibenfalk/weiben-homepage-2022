@@ -2,7 +2,7 @@
 title: 'Weibenfalk on FreeCodeCamp'
 buttonText: 'Go to FCC here'
 buttonUrl: 'https://www.youtube.com/c/Freecodecamp/search?query=weibenfalk'
-imgUrl: 'thumb-2.jpg'
+imgUrl: 'thumb1.webp'
 newWindowForLink: true
 ---
 
