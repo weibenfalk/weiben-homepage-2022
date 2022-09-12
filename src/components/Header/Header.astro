@@ -4,8 +4,8 @@ import Menu from "../Menu/Menu.astro";
 
 <header>
   <a href="/">
-    <img class="img-logo" src="/weiben-logo-light.svg" alt="logo" />
-    <img src="/weiben-logo-dark.svg" alt="logo" />
+    <img class="img-logo-light" src="/weiben-logo-light.svg" alt="logo" />
+    <img class="img-logo-dark" src="/weiben-logo-dark.svg" alt="logo" />
   </a>
   <Menu />
 </header>
@@ -14,21 +14,41 @@ import Menu from "../Menu/Menu.astro";
   header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
   }
 
   header a {
-    background: red;
     z-index: 10000;
+    padding-top: 50px;
+  }
+
+  .img-logo-light {
+    display: none;
+  }
+
+  .img-logo-dark {
+    display: block;
+  }
+
+  html.dark .img-logo-light {
+    display: block;
+  }
+
+  html.dark .img-logo-dark {
+    display: none;
   }
 
   img {
-    position: absolute;
     width: 60px;
-    z-index: 1;
+  }
+
+  @media (max-width: 768px) {
+    header {
+      flex-direction: row;
+    }
   }
 </style>

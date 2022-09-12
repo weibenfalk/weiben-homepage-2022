@@ -117,6 +117,17 @@ const { title } = Astro.props;
 		margin-bottom: 10px;
 	}
 
+	a {
+		font-weight: 800;
+		color: var(--color-text-light);
+		text-decoration: none;
+	}
+
+	html.dark a {
+		color: var(--color-text-dark);
+	}
+
+
 	.quote-char {
 		font-size: 80px;
 		line-height: 50px;
@@ -141,6 +152,7 @@ const { title } = Astro.props;
 
 	p {
 		line-height: 1.5rem;
+		margin-bottom: 20px;
 	}
 
 	a {
@@ -184,10 +196,6 @@ const { title } = Astro.props;
 	main {
 		flex: 1;
 		padding-top: 40px;
-	}
-
-	html.dark .img-logo {
-		z-index: 2;
 	}
 
 	html footer {

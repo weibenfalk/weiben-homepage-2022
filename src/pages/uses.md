@@ -3,9 +3,27 @@ layout: ../layouts/Layout.astro
 title: Weibenfalk | Uses
 ---
 
-# Uses
+# Weibenfalk uses this stuff.
 
-This is your first markdown page. It probably isn't styled much, although
-Markdown does support **bold** and _italics._
+**Software**  
+Visual Studio Code (Theme: One Monokai 80s, Font: Operator Mono)  
+Hyper Terminal  
+Google Chrome (Devtools and React Devtools)  
+Figma (Design)  
 
-To learn more about adding a layout to your page, read the next section on **Markdown Layouts.**
+**Course/Tutorial Recording Hardware**  
+Audient ID14 MKII USB-C (Soundcard)  
+Shure SM-7b (Mic)  
+Røde boom arm for holding the mic  
+Logitech HD Pro c920 (Webcam)
+
+**Course/Tutorial Recording Software**  
+Logic Pro X (Sound editing and music creation)  
+DaVince Resolve (Video editing)  
+OBS (Screen Recording)  
+
+**Computer and equipment**  
+Lenove ThinkVision UltraWide monitor
+MacBook Pro 16" 2021   
+Logitec Pro Superlight Wireless mouse
+Proud owner of a FreeCodeCamp Top Contributor 2019 backpack.

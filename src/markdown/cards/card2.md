@@ -1,9 +1,9 @@
 ---
-title: 'Youtube videos and courses'
-buttonText: 'Click here'
-buttonUrl: '/contact'
+title: 'Weibenfalk on FreeCodeCamp'
+buttonText: 'Go to FCC here'
+buttonUrl: 'https://www.youtube.com/c/Freecodecamp/search?query=weibenfalk'
 imgUrl: 'thumb-2.jpg'
-newWindowForLink: false
+newWindowForLink: true
 ---
 
-In hac habitasse platea dictumst. Duis porttitor vestibulum mauris, eget vehicula enim convallis feugiat. Vivamus et ante sagittis, egestas nisi eget, pellentesque sapien. Aenean mollis ipsum a augue maximus, eget cursus ex auctor.
+During the years I've published several courses on FreeCodeCamps excellent Youtube channel. I'm proud to be a part of FCC as it's an awesome place to learn to code for **FREE**

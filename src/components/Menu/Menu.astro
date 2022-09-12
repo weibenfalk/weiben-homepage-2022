@@ -1,19 +1,20 @@
 ---
-import ModeButton from "../ModeButton/ModeButton.astro";
+import ModeButton from '../ModeButton/ModeButton.astro';
 ---
 
 <nav>
   <ul>
-    <input type="checkbox" id="checkbox_toggle" />
-    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-    <div class="menu">
-      <li><a href="/about">ABOUT</a></li>
-      <li><a href="/uses">USES</a></li>
-      <li><a href="/music">MUSIC</a></li>
-      <li><a href="/contact">CONTACT</a></li>
-      <li>
+    <input type='checkbox' id='checkbox_toggle' />
+    <label for='checkbox_toggle' class='hamburger'>&#9776;</label>
+    <div class='menu'>
+      <li><a href='/'>HOME</a></li>
+      <li><a href='/about'>ABOUT</a></li>
+      <li><a href='/uses'>USES</a></li>
+      <li><a href='/music'>MUSIC</a></li>
+      <li><a href='/contact'>CONTACT</a></li>
+      <div class='mode-btn'>
         <ModeButton />
-      </li>
+      </div>
     </div>
   </ul>
 </nav>
@@ -22,6 +23,12 @@ import ModeButton from "../ModeButton/ModeButton.astro";
   * {
     font-weight: 600;
     text-decoration: none;
+  }
+
+  .mode-btn {
+    position: absolute;
+    top: 48px;
+    right: 30px;
   }
 
   ul {
@@ -36,7 +43,7 @@ import ModeButton from "../ModeButton/ModeButton.astro";
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 20px 20px 20px;
+    padding: 20px;
     color: #fff;
   }
 
@@ -59,19 +66,17 @@ import ModeButton from "../ModeButton/ModeButton.astro";
     justify-content: center;
   }
 
-  /*RESPONSIVE NAVBAR MENU STARTS*/
-  /* CHECKBOX HACK */
-  input[type="checkbox"] {
+  input[type='checkbox'] {
     display: none;
   }
-  /*HAMBURGER MENU*/
+
   .hamburger {
     display: none;
     font-size: 24px;
     user-select: none;
     z-index: 100;
   }
-  /* APPLYING MEDIA QUERIES */
+
   @media (max-width: 768px) {
     .menu {
       display: none;
@@ -96,17 +101,23 @@ import ModeButton from "../ModeButton/ModeButton.astro";
       margin-top: 12px;
     }
 
-    input[type="checkbox"]:checked ~ .menu {
+    input[type='checkbox']:checked ~ .menu {
       display: block;
     }
 
     .hamburger {
       position: fixed;
       right: 40px;
-      top: 25px;
+      top: 38px;
       display: block;
       font-size: 40px;
       cursor: pointer;
+    } 
+
+    .mode-btn {
+      position: absolute;
+      top: 48px;
+      right: 100px;
     }
   }
 </style>

@@ -5,7 +5,4 @@ title: Weibenfalk | Music
 
 # Music
 
-This is your first markdown page. It probably isn't styled much, although
-Markdown does support **bold** and _italics._
-
-To learn more about adding a layout to your page, read the next section on **Markdown Layouts.**
+I'm also a musician. Find me on Spotify <a href="https://open.spotify.com/artist/0S6MUbfNICLcWP6XoOfe8Z?si=Hc9ypwEzQBO20WCn_wOUOA" target="_blank">HERE</a>
