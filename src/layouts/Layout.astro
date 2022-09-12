@@ -38,9 +38,9 @@ const { title } = Astro.props;
 
 <Header />
 
-    <main class='main-page'>
-      <slot />
-    </main>
+<main class={frontmatter ? 'main-page' : ''}>
+  <slot />
+</main>
 
 <Footer />
 
