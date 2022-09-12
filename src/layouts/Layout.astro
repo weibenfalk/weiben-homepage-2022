@@ -48,7 +48,7 @@ const { title } = Astro.props;
 }
 <Footer />
 
-<style>
+<style is:global>
 	* {
 		margin: 0;
 		padding: 0;
@@ -196,5 +196,13 @@ const { title } = Astro.props;
 	main {
 		flex: 1;
 		padding-top: 40px;
+	}
+
+	html footer {
+		background-color: var(--color-secondary-light);
+	}
+
+	html.dark footer {
+		background-color: var(--color-secondary-dark);
 	}
 </style>
