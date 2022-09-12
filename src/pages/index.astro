@@ -1,67 +1,63 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Hero from "../components/Hero/Hero.astro";
-import Section from "../components/Section/Section.astro";
-import Card from "../components/Card/Card.astro";
-import Quote from "../components/Quote/Quote.astro";
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero/Hero.astro';
+import Section from '../components/Section/Section.astro';
+import Card from '../components/Card/Card.astro';
+import Quote from '../components/Quote/Quote.astro';
 
 interface CardFrontmatter {
-	title: string;
-	buttonText: string;
-	buttonUrl: string;
-	imgUrl: string;
-	newWindowForLink: boolean;
+  title: string;
+  buttonText: string;
+  buttonUrl: string;
+  imgUrl: string;
+  newWindowForLink: boolean;
 }
 
 interface QuoteFrontmatter {
-	author: string;
+  author: string;
 }
 
-const cards = await Astro.glob<CardFrontmatter>("../markdown/cards/*.md");
-const quotes = await Astro.glob<QuoteFrontmatter>("../markdown/quotes/*.md");
+const cards = await Astro.glob<CardFrontmatter>('../markdown/cards/*.md');
+const quotes = await Astro.glob<QuoteFrontmatter>('../markdown/quotes/*.md');
 ---
 
-<Layout title="Welcome to Weibenfalk">
-	<main>
-		<Hero
-			title="Hey! This is the home of Weibenfalk."
-			subtitle="I'm a developer, designer, musician and entrepreneur from Sweden 🇸🇪. One of my passions is to code and create cool stuff. I also love to teach and share my knowledge to the world."
-			buttonText="Learn more about me"
-			buttonLink="/about"
-		/>
-		<Section>
-			{
-				cards.map((card, i) => (
-					<Card
-						title={card.frontmatter.title}
-						imgUrl={card.frontmatter.imgUrl}
-						buttonText={card.frontmatter.buttonText}
-						buttonLink={card.frontmatter.buttonUrl}
-						imgToRight={i % 2 !== 0 ? true : false}
-						newWindowForLink={card.frontmatter.newWindowForLink}
-					>
-						<card.Content />
-					</Card>
-				))
-			}
-		</Section>
-		<Section isTransparent>
-			<h1 class="saying">What people are saying</h1>
-			{
-				quotes.map((quote) => (
-					<Quote>
-						<quote.Content />
-					</Quote>
-				))
-			}
-		</Section>
-	</main>
+<Layout title='Welcome to Weibenfalk'>
+  <Hero
+    title='Hey! This is the home of Weibenfalk.'
+    subtitle='Im a developer, designer, musician and entrepreneur from Sweden 🇸🇪. One of my passions is to code and create cool stuff. I also love to teach and share my knowledge to the world.'
+    buttonText='Learn more about me'
+    buttonLink='/about'
+  />
+  <Section>
+    {
+      cards.map((card, i) => (
+        <Card
+          title={card.frontmatter.title}
+          imgUrl={card.frontmatter.imgUrl}
+          buttonText={card.frontmatter.buttonText}
+          buttonLink={card.frontmatter.buttonUrl}
+          imgToRight={i % 2 !== 0 ? true : false}
+          newWindowForLink={card.frontmatter.newWindowForLink}
+        >
+          <card.Content />
+        </Card>
+      ))
+    }
+  </Section>
+  <Section isTransparent>
+    <h1 class='saying'>What people are saying</h1>
+    {
+      quotes.map(quote => (
+        <Quote>
+          <quote.Content />
+        </Quote>
+      ))
+    }
+  </Section>
 </Layout>
 
 <style>
-
-	h1.saying {
-		text-align: center;
-	}
-
+  h1.saying {
+    text-align: center;
+  }
 </style>
