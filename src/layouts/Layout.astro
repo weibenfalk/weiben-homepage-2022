@@ -35,7 +35,6 @@ const { title } = Astro.props;
 <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
 <meta name='generator' content={Astro.generator} />
 <title>{title}</title>
-<link rel="stylesheet" href="/styles/global.css" />
 
 <Header />
 
@@ -45,7 +44,7 @@ const { title } = Astro.props;
 
 <Footer />
 
-<!-- <style is:global>
+<style is:global is:inline>
   * {
     margin: 0;
     padding: 0;
@@ -201,4 +200,4 @@ const { title } = Astro.props;
   html.dark footer {
     background-color: var(--color-secondary-dark);
   }
-</style> -->
+</style>
