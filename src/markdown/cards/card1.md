@@ -7,4 +7,4 @@ newWindowForLink: true
 ---
 
 Låten **Aska & Sten** snurrar nu på radion. Här blandas klassisk pop/rock med 
-80-tals inspirerade synthslingor.
+80-tals inspirerade synthslingor. Singeln är den första låten från kommande album.
