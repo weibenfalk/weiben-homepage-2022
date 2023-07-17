@@ -1,9 +1,10 @@
 ---
-title: 'FREE dev videos and courses'
-buttonText: 'Go to my Youtube channel'
-buttonUrl: 'https://www.youtube.com/weibenfalk'
-imgUrl: 'thumb2.webp'
+title: 'Ny singel ute!'
+buttonText: 'Lyssna på Spotify'
+buttonUrl: 'https://open.spotify.com/track/1PyeSb2iPG03M48LTBo0CK?si=e842c7385dc84074'
+imgUrl: 'aska.png'
 newWindowForLink: true
 ---
 
-During the years I've published hundreds of videos and courses to learn from. Several of the videos are full length courses where you can learn modern Frontend development for **FREE**. Check out my Youtube channel to learn **React, Svelte, HTML, CSS, Typescript, Javascript and more ...**
+Låten **Aska & Sten** snurrar nu på radion. Här blandas klassisk pop/rock med 
+80-tals inspirerade synthslingor.

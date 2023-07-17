@@ -1,9 +1,10 @@
 ---
-title: 'Weibenfalk on FreeCodeCamp'
-buttonText: 'Go to FCC here'
-buttonUrl: 'https://www.youtube.com/c/Freecodecamp/search?query=weibenfalk'
-imgUrl: 'thumb1.webp'
+title: 'Weibenfalk och band - spelningar 2023'
+buttonText: 'Spelningar 2023'
+buttonUrl: '/spelningar'
+imgUrl: 'weiben3.jpg'
 newWindowForLink: true
 ---
 
-During the years I've published several courses on FreeCodeCamps excellent Youtube channel. I'm proud to be a part of FCC as it's an awesome place to learn to code for **FREE**
+Under sommaren och hösten 2023 drar Weibenfalk med band ut på en miniturné. Det blir
+spelningar i Kalmar, på Öland, Hultsfred bland annat.

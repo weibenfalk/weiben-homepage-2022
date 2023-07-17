@@ -1,3 +1,3 @@
-_Enjoying every bit of the course!! He is expalining everything in so detail and with such clarity that you feel you are an experienced programmer._
+_Hans närvaro är perfekt och soundet är godis för någon som gillar singer/songwriter-rock på svenska. Det är en ”växa-låt” med ökande dramatik, som trevligt nog avslutas med ett instrumental crescendo där vi får frossa i underbart crunchiga gitarrmattor och ylande gitarrer så att man får rysningar.._
 
-### Rahul RK
+### meadowmusic.se / Pär Berglund

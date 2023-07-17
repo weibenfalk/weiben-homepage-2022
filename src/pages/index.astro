@@ -21,13 +21,13 @@ const cards = await Astro.glob<CardFrontmatter>('../markdown/cards/*.md');
 const quotes = await Astro.glob<QuoteFrontmatter>('../markdown/quotes/*.md');
 ---
 
-<Layout title='Welcome to Weibenfalk'>
-  <Hero
-    title='Hey! This is the home of Weibenfalk.'
-    subtitle='Im a developer, designer, musician and entrepreneur from Sweden 🇸🇪. One of my passions is to code and create cool stuff. I also love to teach and share my knowledge to the world.'
-    buttonText='Learn more about me'
-    buttonLink='/about'
-  />
+<Layout title='Weibenfalk'>
+  <!-- <Hero
+    title=''
+    subtitle='Här hittar du allt du vill veta om artisten Weibenfalk'
+    buttonText='Spelningar 2023'
+    buttonLink='/spelningar'
+  /> -->
   <Section>
     {
       cards.map((card, i) => (
@@ -45,7 +45,7 @@ const quotes = await Astro.glob<QuoteFrontmatter>('../markdown/quotes/*.md');
     }
   </Section>
   <Section isTransparent>
-    <h1 class='saying'>What people are saying</h1>
+    <h1 class='saying'>Vad säger folk?</h1>
     {
       quotes.map(quote => (
         <Quote>
