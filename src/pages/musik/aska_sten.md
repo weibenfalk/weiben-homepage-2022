@@ -5,7 +5,7 @@ title: Weibenfalk | Aska & Sten
 
 # Aska & Sten
 
-### Intro
+### Intro, vers
 [A Bm F#m A A Bm D E]
 
 ### Refräng, outro
