@@ -3,9 +3,9 @@ layout: ../layouts/Layout.astro
 title: Weibenfalk | Spelningar
 ---
 
-# Spelningar
+# Spelningar 2023
 
-11 maj 2023 - **Söderport** - Kalmar - kl 20.00 Fri entré  
+11 maj - **Söderport** - Kalmar - kl 20.00 Fri entré  
 12 augusti - **Byxelkroks hamnkrog** - Öland - kl 21.00 Fri entré  
 1 september - **Privat välgörenhetsfest** - Kalmar  
 8 september - **Hulingen** - Hulstred  
