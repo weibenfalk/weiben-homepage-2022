@@ -10,7 +10,12 @@
     "astro": "astro"
   },
   "devDependencies": {
-    "astro": "^1.1.1"
+    "@astrojs/react": "^2.2.2",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "astro": "^1.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "dependencies": {
     "autoprefixer": "^10.4.8",
