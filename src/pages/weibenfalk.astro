@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Section from '../components/Section/Section.astro';
+import weibenImage from '../assets/weiben3.jpg';
 ---
 
 <Layout title='Weibenfalk'>
@@ -28,7 +29,7 @@ import Section from '../components/Section/Section.astro';
     <p>Tapsa Viitala - bas</p>
     <p>Jacob Nääf - hammond/keys</p>
     <p>Linda Herborn Olsson - kör</p>
-    <img src='weiben3.jpg' />
+    <img src={weibenImage} alt="Weibenfalk"/>
   </Section>
   <Section isTransparent>
     <h2 class='selection'>Urval av låtar</h2>
