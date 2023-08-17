@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.8",
-    "cssnano": "^5.1.13"
+    "cssnano": "^5.1.13",
+    "styled-components": "^6.0.7"
   }
 }

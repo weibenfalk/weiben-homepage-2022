@@ -1,0 +1,85 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Section from '../components/Section/Section.astro';
+---
+
+<Layout title='Weibenfalk'>
+  <Section>
+    <h2>Om Thomas Weibenfalk</h2>
+    <p>
+      Thomas är uppväxt i Nybro i Småland men har bott på flera orter i Sverige. Bland annat bodde han 12 år i Stockholm
+      men är numera bosatt i Kalmar med familj. Han har gjort musik i över 20 år och har gett ut 12 album genom åren och
+      ett flertal singlar och EP:s.
+    </p>
+    <p>
+      Musiken grundar sig i svensk pop och rock där texterna och melodierna är det centrala. Under sin Stockholmstid
+      samarbetade Weibenfalk med välkända namn som Andreas Dahlbäck, Jens Frithiof, Surjo Benigh och Marcus Olsson m.fl.
+      De var med och spelade på de tre senaste albumen som Andreas Dahlbäck producerade.
+    </p>
+    <p>
+      Weibenfalk började sin musikresa i Stockholm med sitt egna band där de gjorde flertalet spelningar, främst på
+      Södermalm i Stockholm. De spelade även ett par gånger i SR Stockholm och han har även varit Veckans Artist i SR
+      Kalmar. Under alla år har Weibenfalk haft musik i olika radiostationer som spelats.
+    </p>
+    <h4>Weibenfalks band består av:</h4>
+    <p>Thomas Weibenfalk - Sång, gitarr</p>
+    <p>Per-Anders Karlsson - Gitarr</p>
+    <p>Magnus "Engan" Engstrand - trummor och slagverk</p>
+    <p>Tapsa Viitala - bas</p>
+    <p>Jacob Nääf - hammond/keys</p>
+    <img src='weibenfalk.jpg' />
+  </Section>
+  <Section isTransparent>
+    <h2 class='selection'>Urval av låtar</h2>
+    <iframe
+      style='border-radius:12px'
+      src='https://open.spotify.com/embed/playlist/1PiTyisaKjw5VXlUNaZvUz?utm_source=generator&theme=0'
+      width='100%'
+      height='400px'
+      allowfullscreen=''
+      allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'
+      loading='lazy'></iframe>
+  </Section>
+  <Section>
+    <h2 class='video'>Live spelningar/videos</h2>
+    <h4>Byxelkrok, Öland, 20230812</h4>
+
+    <iframe
+      src='https://www.youtube.com/embed/videoseries?list=PL0jpcQ5lO0nE7Ph7JAOP4IgLembHU2EUm'
+      title='YouTube video player'
+      allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+      width='100%'
+      height='400px'
+      allowfullscreen
+    >
+    </iframe>
+  </Section>
+</Layout>
+
+<style>
+  img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  h1.saying {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  h2.selection {
+    margin-top: 40px;
+  }
+
+  h2.video {
+    margin-top: -40px;
+  }
+
+  h4 {
+    margin-bottom: 20px;
+  }
+
+  iframe {
+    margin-bottom: 20px;
+  }
+</style>
