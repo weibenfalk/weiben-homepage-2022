@@ -2,7 +2,7 @@
 title: 'Weibenfalk och band - spelningar 2023'
 buttonText: 'Spelningar 2023'
 buttonUrl: '/spelningar'
-imgUrl: 'weiben3.jpg'
+imgUrl: 'weiben1.webp'
 newWindowForLink: true
 ---
 
