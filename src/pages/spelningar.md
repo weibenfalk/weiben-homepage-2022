@@ -5,10 +5,15 @@ title: Weibenfalk | Spelningar
 
 # Spelningar 2023
 
-11 maj - **Söderport** - Kalmar - kl 20.00 Fri entré  
-12 augusti - **Byxelkroks hamnkrog** - Öland - kl 21.00 Fri entré  
+13 oktober - **Don Camillo** - Kosta  
+8 september - **Hulingen** - Hulstred   
 1 september - **Privat välgörenhetsfest** - Kalmar  
-8 september - **Hulingen** - Hulstred  
+12 augusti - **Byxelkroks hamnkrog** - Öland - kl 21.00 Fri entré   
+11 maj - **Söderport** - Kalmar - kl 20.00 Fri entré   
+
+ 
+ 
+
 
 <style>
   a {
