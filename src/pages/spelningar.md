@@ -5,7 +5,7 @@ title: Weibenfalk | Spelningar
 
 # Spelningar 2023
 
-1 december - **Kristallen** - Nybro
+1 december - **Kristallen** - Nybro  
 13 oktober - **Don Camillo** - förband åt Ebbot - Kosta  
 8 september - **Hulingen** - Hulstred   
 1 september - **Privat välgörenhetsfest** - Kalmar  
