@@ -13,4 +13,5 @@ Weibenfalk är artistnamnet som Thomas Weibenfalk använder sig av när han slä
 Thomas Weibenfalk - Gitarr och sång  
 Magnus "Engan" Engstrand - Trummor och slagverk  
 Tapsa Viitala - Bas  
-Per-Anders Karlsson - Gitarr
+Per-Anders Karlsson - Gitarr  
+Linda Herborn Jonsson - Kör
