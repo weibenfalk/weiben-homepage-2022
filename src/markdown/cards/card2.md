@@ -1,10 +1,9 @@
 ---
-title: 'Weibenfalk och band - spelningar 2023'
-buttonText: 'Spelningar 2023'
-buttonUrl: '/spelningar'
-imgUrl: 'weiben1.webp'
+title: 'Ny singel!'
+buttonText: 'Lyssna på Spotify'
+buttonUrl: 'https://open.spotify.com/track/3T1u44fCY6JUMb5LKRmuUm?si=fef5623c4d5f42a5'
+imgUrl: 'digital.jpg'
 newWindowForLink: true
 ---
 
-Under sommaren och hösten 2023 drar Weibenfalk med band ut på en miniturné. Det blir
-spelningar i Kalmar, på Öland, Hultsfred bland annat.
+**Digital Avgrund** handlar inte nödvändigtvis om att dissa den digitala utvecklingen utan mera som en gliring till hur den digitala utvecklingen i många fall tar fel vägar; Hur vi tycks komma längre ifrån varandra trots att det är lättare att kommunicera än någonsin i dagens samhälle.

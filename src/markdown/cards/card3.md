@@ -1,10 +1,10 @@
 ---
-title: 'Ny singel ute!'
-buttonText: 'Lyssna på Spotify'
-buttonUrl: 'https://open.spotify.com/track/1PyeSb2iPG03M48LTBo0CK?si=e842c7385dc84074'
-imgUrl: 'aska.png'
+title: 'Weibenfalk och band - spelningar 2023'
+buttonText: 'Spelningar 2023'
+buttonUrl: '/spelningar'
+imgUrl: 'weiben1.webp'
 newWindowForLink: true
 ---
 
-Låten **Aska & Sten** snurrar nu på radion. Här blandas klassisk pop/rock med 
-80-tals inspirerade synthslingor. Singeln är den första låten från kommande album.
+Under sommaren och hösten 2023 drar Weibenfalk med band ut på en miniturné. Det blir
+spelningar i Kalmar, på Öland, Hultsfred bland annat.
