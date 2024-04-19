@@ -4,7 +4,7 @@ title: Weibenfalk | Spelningar
 ---
 # Spelningar 2024
 
-24 maj - **Teatervallen** - Kalmar
+24 maj - **Teatervallen** - Kalmar  
 16 mars - Releasespelning **Söderport** - Kalmar - INSTÄLLD!!!
 
 # Spelningar 2023
