@@ -3,6 +3,10 @@ layout: ../layouts/Layout.astro
 title: Weibenfalk | Kontakt
 ---
 
+# Facebook
+
+Kolla in [Här](https://www.facebook.com/WeibenfalkMusik/).
+
 # Instagram
 
 Kolla in [Här](https://www.instagram.com/weibenfalkband/).
