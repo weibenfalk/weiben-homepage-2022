@@ -7,7 +7,7 @@ title: Weibenfalk | Spelningar
 13 september - **Söderport** - Kalmar - Biljetter släpps snart.  
 21 juli - **Byxelkroks hamnkrog** - Öland - Kl 21.00 Fri entré  
 16 juni - **Stallets café och pub** - Rinkaby  
-24 maj - **Teatervallen** - Kalmar - [Köp biljetter HÄR](https://nortic.se/ticket/show/235320)  
+24 maj - **Teatervallen** - Kalmar 
 16 mars - Releasespelning **Söderport** - Kalmar - INSTÄLLD!!!
 
 # Spelningar 2023
