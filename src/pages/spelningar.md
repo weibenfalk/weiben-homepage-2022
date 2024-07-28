@@ -5,6 +5,7 @@ title: Weibenfalk | Spelningar
 # Spelningar 2024
 
 13 september - **Söderport** - Kalmar - Biljetter släpps snart.  
+31 augusti - **Scensommarfröjd** - Nybro  
 21 juli - **Byxelkroks hamnkrog** - Öland - Kl 21.00 Fri entré  
 16 juni - **Stallets café och pub** - Rinkaby  
 24 maj - **Teatervallen** - Kalmar  
