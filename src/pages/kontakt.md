@@ -9,7 +9,7 @@ Kolla in [Här](https://www.facebook.com/WeibenfalkMusik/).
 
 # Instagram
 
-Kolla in [Här](https://www.instagram.com/weibenfalkband/).
+Kolla in [Här](https://www.instagram.com/weibenfalk/).
 
 # Spotify
 
